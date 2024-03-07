@@ -4,14 +4,14 @@
 body
 {
     margin: 0;
-    background-color: hsl(0, 0%, 85%);
+    background-color: hsl(0, 0%, 100%);
     text-align: center;
 
 }
 
 header
 {
-    background-color: hsl(0, 0%, 50%);
+    background-color: hsl(212, 100%, 65%);
     text-align: center;
     padding: 25px;
 }
@@ -46,7 +46,7 @@ footer
 {
     display: block;
     clear: both;
-    background-color: hsl(0, 0%, 55%);
+    background-color: hsl(212, 100%, 75%);
     text-align: center;
     padding: 25px;
 }
