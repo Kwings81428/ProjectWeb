@@ -1,8 +1,58 @@
-/* This is a single-line comment */
+*{
+    box-sizing: border-box;
+}
 body
 {
     margin: 0;
     background-color: hsl(212, 100%, 75%);
     text-align: center;
 
+}
+
+header
+{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar
+{
+    background-color: aliceblue;
+    height: 50px;
+}
+
+aside
+{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section 
+{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article
+{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer
+{
+    display: block;
+    clear: both;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 25px;
+}
+
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100px;
+    }
 }
