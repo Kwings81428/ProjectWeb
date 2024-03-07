@@ -4,21 +4,21 @@
 body
 {
     margin: 0;
-    background-color: hsl(212, 100%, 75%);
+    background-color: hsl(212, 100%, 60%);
     text-align: center;
 
 }
 
 header
 {
-    background-color: whitesmoke;
+    background-color: hsl(0, 0%, 50%);
     text-align: center;
     padding: 25px;
 }
 
 .navbar
 {
-    background-color: aliceblue;
+    background-color: hsl(212, 100%, 75%);
     height: 50px;
 }
 
@@ -46,7 +46,7 @@ footer
 {
     display: block;
     clear: both;
-    background-color: aliceblue;
+    background-color: hsl(0, 0%, 55%);
     text-align: center;
     padding: 25px;
 }
