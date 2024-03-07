@@ -52,6 +52,11 @@ footer
     padding: 25px;
 }
 
+a {
+    display: block;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
 @media screen and (max-width:600px){
     aside, section, article{
         width: 100px;
