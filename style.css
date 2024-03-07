@@ -1,19 +1,20 @@
 *{
     box-sizing: border-box;
 }
-body
-{
-    margin: 0;
-    background-color: hsl(0, 0%, 100%);
-    text-align: center;
-
-}
 
 header
 {
     background-color: hsl(212, 100%, 65%);
     text-align: center;
     padding: 25px;
+}
+
+body
+{
+    margin: 0;
+    background-color: hsl(0, 100%, 50%);
+    text-align: center;
+
 }
 
 .navbar
@@ -26,20 +27,20 @@ aside
 {
     width: 20%;
     float: left;
-    padding: 5px;
+    padding: 10px;
 }
 section 
 {
     width: 40%;
     float: left;
-    padding: 5px;
+    padding: 10px;
 }
 
 article
 {
     width: 40%;
     float: left;
-    padding: 5px;
+    padding: 10px;
 }
 
 footer
@@ -51,7 +52,7 @@ footer
     padding: 25px;
 }
 
-@media screen and (max-width:300px){
+@media screen and (max-width:600px){
     aside, section, article{
         width: 100px;
     }
