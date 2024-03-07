@@ -11,14 +11,14 @@ Motivation
 
 Projects
 ========
-Altium Designer Roadmap
-Embedded Engineering Roadmap
-FPGA Engineering Roadmap
-Art of Electronics Roadmap
-RF Engineer Roadmap
-Electrical Engineering Tools and Equipment
-Learning Python
-Learning C
-Learning HTML/CSS
-Learning Git
+- Altium Designer Roadmap
+- Embedded Engineering Roadmap
+- FPGA Engineering Roadmap
+- Art of Electronics Roadmap
+- RF Engineer Roadmap
+- Electrical Engineering Tools and Equipment
+- Learning Python
+- Learning C
+- Learning HTML/CSS
+- Learning Git
 
