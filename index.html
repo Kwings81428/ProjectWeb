@@ -13,8 +13,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Kenny's Portfolio </title>
-        <link rel="icon" type = "/ProjectWeb/image/png" href="/ProjectWeb/images/bolt.png">
+        <link rel="icon" type = "image/png" href="/ProjectWeb/images/bolt.png">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/859c7610b8.js" crossorigin="anonymous"></script>
     </head>
 
     <!-- the body tag contains visable elements within your webpage -->
@@ -40,38 +41,73 @@
 
         </nav>
 
-        <div class = "logo">
-            <a target = "_blank" href="/ProjectWeb/images/pcb_logo.png">
-                <img src="/ProjectWeb/images/pcb_logo.png" alt = "Printed Circuit Board Logo">
-            </a>
-            <div class = "description"> Altium </div>
-        </div>
-
-        <div class = "logo">
-            <a target = "_blank" href="/ProjectWeb/images/microcontroller_logo.png">
-                <img src="/ProjectWeb/images/microcontroller_logo.png" alt = "Embedded Logo">
-            </a>
-            <div class = "description"> Embedded </div>
-        </div>
-
-        <div class = "logo">
-            <a target = "_blank" href="/ProjectWeb/images/fpga_logo.png">
-                <img src="/ProjectWeb/images/fpga_logo.png" alt = "FPGA Logo">
-            </a>
-            <div class = "description"> FPGA </div>
-        </div>
-
         <!-- Website Main Page -->
         <main>
-            <h2> Homepage </h2>
+            <aside>
+                <h2>A Message From Me </h2>
+                <p> 
+                    Hi there! I'm Kenny Alas, a passionate Electrical Engineer with a knack for turning 
+                    ideas into tangible innovations. My journey in engineering has led me to diverse experiences, 
+                    from my role as an Electrician Apprentice at RJ Performance, where I honed my skills in electrical
+                    installations and National Electrical Codes compliance, to my current position as a Hardware Engineer 
+                    at USC ICT Graphics Lab. Here, I've been instrumental in developing groundbreaking solutions, notably 
+                    contributing to the creation of an affordable portable lightstage with cutting-edge capabilities. 
+                    From designing PCB hardware to developing firmware in languages like C, I thrive on the challenges of
+                    bringing projects to fruition. Driven by a passion for innovation and a commitment to excellence, 
+                    I'm eager to continue pushing boundaries in the field of electrical engineering. Whether it's 
+                    collaborating with cross-functional teams or diving into new technologies, I'm always ready to 
+                    tackle the next challenge head-on. Feel free to connect with me on LinkedIn, email or explore my 
+                    projects. I'm excited to explore opportunities where I can contribute my skills and expertise to 
+                    drive impactful solutions in the ever-evolving world of electrical engineering. 
+                    Let's connect and innovate together!
+                </p>
+            </aside>
+            
+            <section>
+                <h3>Featured Projects</h3>
+                <div class = "logo">
+                    <a target = "_blank" href="/ProjectWeb/altium.html">
+                        <img src="/ProjectWeb/images/pcb_logo.png" alt = "Printed Circuit Board Logo">
+                    </a>
+                    <div class = "description"> Altium </div>
+                    <p> Projects pertaining to PCB design using Altium </p>
+                </div>
+        
+                <div class = "logo">
+                    <a target = "_blank" href="/ProjectWeb/embedded.html">
+                        <img src="/ProjectWeb/images/microcontroller_logo.png" alt = "Embedded Logo">
+                    </a>
+                    <div class = "description"> Embedded </div>
+                    <p> Project pertaining to Microcontrollers </p>
+                </div>
+        
+                <div class = "logo">
+                    <a target = "_blank" href="/ProjectWeb/fpga.html">
+                        <img src="/ProjectWeb/images/fpga_logo.png" alt = "FPGA Logo">
+                    </a>
+                    <div class = "description"> FPGA </div>
+                    <p> Projects pertaining to FPGA's</p>
+                </div>
+            </section> 
         </main>
 
         <!-- Website Footer -->
         <footer>
-            <ul>
-                <li><a href="https://linkedin.com/in/kenny-alas-97b83123a">My Linkedin</a></li>
-                <li><a href="mailto:kennyalas10@gmail.com">My Email</a></li>
-            </ul>
+            <div class = "contact">
+                <a target = "_blank" href="https://linkedin.com/in/kenny-alas-97b83123a">
+                    <i class="fa-brands fa-linkedin fa-3x"></i>
+                </a>
+            </div>
+            <div class = "contact">
+                <a target = "_blank" href="mailto:kennyalas10@gmail.com">
+                    <i class="fa-regular fa-envelope fa-3x"></i>
+                </a>
+            </div>
+            <div class = "contact">
+                <a target = "_blank" href="https://github.com/Kwings81428">
+                    <i class="fa-brands fa-square-github fa-3x"></i>
+                </a>
+            </div>
         </footer>
 
     </body>

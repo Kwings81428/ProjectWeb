@@ -3,19 +3,64 @@
     box-sizing: border-box;
 }
 
-/* Website Header */ 
+/* Main Website Sections */
+
 header {
-    background-color: hsl(215, 100%, 60%);
-    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(215, 100%, 75%);
     text-align: left;
+    font-family: Verdana, Arial;
     padding: 25px;
+}
+header h1{
+    margin-bottom: 3px ;
+    font-size: 34px;
+    font-weight: bold;
+    border-bottom: 3px solid hsl(0, 0%, 100%);
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    background-color: hsl(204, 100%, 100%);
+    background-color: hsl(0, 0%, 100%);
     text-align: center;
+}
 
+aside{
+    width: 20%;
+    float: left;
+    font-family: Verdana, Arial;
+}
+aside p {
+    text-align:justify;
+}
+section{
+    width:80%;
+    float:left;
+    font-family: Verdana, Arial;
+}
+section p {
+    text-align: center;
+}
+
+article{
+    width:80%;
+    float:left;
+    font-family: Verdana, Arial;
+}
+article p {
+    text-align:justify;
+}
+
+footer{
+    background-color: hsl(0, 0%, 0%);
+    text-align: left;
+    padding: 5px;
+    margin-top: auto;
+    display:block; 
+    clear: both; 
 }
 
 
@@ -23,7 +68,7 @@ body {
 
 .navbar ul {
     list-style-type: none;
-    background-color: hsl(215, 100%, 70%);
+    background-color: hsl(0, 0%, 90%);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -48,10 +93,8 @@ body {
 }
 
 /* Main webpage logos*/
-
 .logo {
     display: inline-block;
-    border: 1px solid hsl(0, 0%, 60%);
     margin: 5px;
     width: 200px;
 }
@@ -60,58 +103,31 @@ body {
 
     padding: 10px;
     text-align: center;
+    font-family: Verdana, Arial;
 }
 
 .logo:hover{
 
-    border: 1px solid hsl(0, 0%, 30%);
+    border: 1px solid hsl(215, 100%, 75%);
 }
 
 .logo img{
     width: 100%;
     height:auto;
 }
-/* Other stuff */
 
-aside {
-    width: 20%;
-    float: left;
-    padding: 10px;
+/* Contact Footer */
+.contact {
+    display: inline;
+    margin: 5px;
 }
-section {
-    width: 80%;
-    float: left;
-    padding: 10px;
+.contact i{
+    color: hsl(215, 100%, 75%);
 }
 
-footer {
-    display: block;
-    clear: both;
-    background-color: hsl(212, 100%, 75%);
-    text-align: center;
-    padding: 25px;
-}
-
-h1 {
-    margin-bottom: 0px ;
-    font-family: Verdana, Arial ;
-    font-size: 34px;
-    font-weight: bold;
-}
-
-h3 {
-    border-bottom: 3px solid black;
-
-    margin-top: 10px;
-
-    font-family: Verdana, Arial;
-    font-size: 17px;
-    font-style: italic;
-}
-
-
+/* Mobile/Webpage Formatting */
 @media screen and (max-width:600px){
-    aside, section, article{
-        width: 100px;
+    aside, section{
+        width: 100%;
     }
 }
